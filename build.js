@@ -6,10 +6,10 @@ const path = require("path");
 
 // TODO: replace with the real domain and contact details before going live.
 const site = {
-  url: "https://www.op-pm.com",
+  url: "https://www.ob-pm.com",
   phone: "+966 50 000 0000",
   whatsapp: "966500000000",
-  email: "info@op-pm.com",
+  email: "info@ob-pm.com",
 };
 
 // Countries we serve: Gulf / Middle East and the United States.
@@ -27,17 +27,17 @@ const content = {
   en: {
     dir: "ltr",
     locale: "en_US",
-    brand: "OP Property Management",
+    brand: "OB Property Management",
     otherLang: "العربية",
     nav: { home: "Home", services: "Services", faq: "FAQ", contact: "Contact us" },
     home: {
-      title: "OP Property Management | Airbnb & Booking.com Management, HubSpot, Trademarks & Online Stores",
-      description: "OP Property Management serves Saudi Arabia, the Gulf and the USA: short-term rental management on Booking.com, Airbnb, Agoda and Gathern, HubSpot implementation, Saudi trademark registration, and Noon, Amazon & Trendyol store setup.",
+      title: "OB Property Management | Airbnb & Booking.com Management, HubSpot, Trademarks & Online Stores",
+      description: "OB Property Management serves Saudi Arabia, the Gulf and the USA: short-term rental management on Booking.com, Airbnb, Agoda and Gathern, HubSpot implementation, Saudi trademark registration, and Noon, Amazon & Trendyol store setup.",
     },
     hero: {
       eyebrow: "Saudi Arabia · Gulf (GCC) · United States",
       title: "We run the operations. You grow the business.",
-      lead: "From managing your rental listings on Booking.com and Airbnb to setting up HubSpot, registering your trademark in Saudi Arabia and launching your Noon, Amazon and Trendyol stores — OP handles it end to end.",
+      lead: "From managing your rental listings on Booking.com and Airbnb to setting up HubSpot, registering your trademark in Saudi Arabia and launching your Noon, Amazon and Trendyol stores — OB handles it end to end.",
       cta: "Get a free consultation",
       cta2: "Explore services",
       stats: [["4", "core services"], ["A→Z", "end-to-end delivery"], ["ME · US", "Middle East & USA clients"]],
@@ -73,7 +73,7 @@ const content = {
       },
     ],
     why: {
-      eyebrow: "Why OP", title: "One partner for your whole business",
+      eyebrow: "Why OB", title: "One partner for your whole business",
       items: [
         ["End-to-end", "We take each project from start to finish — no loose ends."],
         ["Local expertise", "We know the Saudi and Gulf markets, their platforms and their regulations."],
@@ -93,7 +93,7 @@ const content = {
     faqEyebrow: "FAQ",
     faqTitle: "Frequently asked questions",
     faq: [
-      ["What does OP Property Management do?", "OP Property Management is a business services company that offers four services: short-term rental property management on Booking.com, Airbnb, Agoda and Gathern; HubSpot CRM implementation from A to Z; trademark registration in Saudi Arabia; and online store setup on Noon, Amazon and Trendyol."],
+      ["What does OB Property Management do?", "OB Property Management is a business services company that offers four services: short-term rental property management on Booking.com, Airbnb, Agoda and Gathern; HubSpot CRM implementation from A to Z; trademark registration in Saudi Arabia; and online store setup on Noon, Amazon and Trendyol."],
       ["Which countries do you serve?", "We serve clients in Saudi Arabia, the United Arab Emirates, Kuwait, Qatar, Bahrain, Oman and the United States. HubSpot implementation and Amazon store setup are delivered fully remotely."],
       ["Which booking platforms do you manage?", "We manage vacation rental listings on Booking.com, Airbnb, Agoda and Gathern, including listing setup, pricing, calendars, guest messages and reviews."],
       ["What do I need to register a trademark in Saudi Arabia?", "Usually your brand name or logo, the owner's details (for companies, the commercial registration) and the list of goods or services the mark will cover. We confirm the exact documents for your case and handle the filing and follow-up with the Saudi Authority for Intellectual Property (SAIP)."],
@@ -102,8 +102,8 @@ const content = {
     ],
     ctaBand: { title: "Ready to start?", text: "Tell us what you need and we’ll reply within 24 hours.", button: "Contact us" },
     contact: {
-      title: "Contact OP Property Management | Saudi Arabia, Gulf & USA",
-      description: "Contact OP Property Management for rental property management, HubSpot implementation, Saudi trademark registration or Noon, Amazon & Trendyol store setup. We reply within 24 hours.",
+      title: "Contact OB Property Management | Saudi Arabia, Gulf & USA",
+      description: "Contact OB Property Management for rental property management, HubSpot implementation, Saudi trademark registration or Noon, Amazon & Trendyol store setup. We reply within 24 hours.",
       eyebrow: "Contact us",
       heading: "Let’s talk about your project",
       lead: "Tell us which service you need and we will get back to you within 24 hours — in Arabic or English.",
@@ -116,7 +116,7 @@ const content = {
       name: "Full name", phone: "Phone / WhatsApp", email: "Email (optional)", country: "Country",
       service: "Service", choose: "Choose a service", message: "Message",
       send: "Send via WhatsApp", note: "Submitting opens WhatsApp with your message ready to send.",
-      intro: "Hello OP Property Management, I'm interested in:",
+      intro: "Hello OB Property Management, I'm interested in:",
     },
     breadcrumbContact: "Contact us",
     rights: "All rights reserved.",
@@ -125,17 +125,17 @@ const content = {
   ar: {
     dir: "rtl",
     locale: "ar_SA",
-    brand: "OP لإدارة العقارات",
+    brand: "OB لإدارة العقارات",
     otherLang: "English",
     nav: { home: "الرئيسية", services: "خدماتنا", faq: "الأسئلة الشائعة", contact: "تواصل معنا" },
     home: {
-      title: "OP لإدارة العقارات | إدارة Airbnb وBooking.com وتطبيق HubSpot وتسجيل العلامات التجارية والمتاجر الإلكترونية",
-      description: "OP لإدارة العقارات في السعودية والخليج وأمريكا: إدارة وحدات الإيجار قصير المدى على Booking.com وAirbnb وAgoda وجاذر إن، وتطبيق HubSpot، وتسجيل العلامات التجارية في السعودية، وإنشاء متاجر نون وأمازون وترينديول.",
+      title: "OB لإدارة العقارات | إدارة Airbnb وBooking.com وتطبيق HubSpot وتسجيل العلامات التجارية والمتاجر الإلكترونية",
+      description: "OB لإدارة العقارات في السعودية والخليج وأمريكا: إدارة وحدات الإيجار قصير المدى على Booking.com وAirbnb وAgoda وجاذر إن، وتطبيق HubSpot، وتسجيل العلامات التجارية في السعودية، وإنشاء متاجر نون وأمازون وترينديول.",
     },
     hero: {
       eyebrow: "السعودية · دول الخليج · الولايات المتحدة",
       title: "نحن ندير العمليات، وأنت تنمّي أعمالك.",
-      lead: "من إدارة وحداتك على Booking.com وAirbnb، إلى تطبيق HubSpot، وتسجيل علامتك التجارية في السعودية، وإطلاق متاجرك على نون وأمازون وترينديول — OP تتولى كل شيء من البداية للنهاية.",
+      lead: "من إدارة وحداتك على Booking.com وAirbnb، إلى تطبيق HubSpot، وتسجيل علامتك التجارية في السعودية، وإطلاق متاجرك على نون وأمازون وترينديول — OB تتولى كل شيء من البداية للنهاية.",
       cta: "احصل على استشارة مجانية",
       cta2: "استعرض الخدمات",
       stats: [["4", "خدمات رئيسية"], ["A→Z", "تنفيذ متكامل"], ["ME · US", "عملاء في الشرق الأوسط وأمريكا"]],
@@ -171,7 +171,7 @@ const content = {
       },
     ],
     why: {
-      eyebrow: "لماذا OP", title: "شريك واحد لكل أعمالك",
+      eyebrow: "لماذا OB", title: "شريك واحد لكل أعمالك",
       items: [
         ["خدمة متكاملة", "ننفذ كل مشروع من البداية حتى النهاية دون أي نقص."],
         ["خبرة محلية", "نعرف السوق السعودي والخليجي ومنصاته وأنظمته."],
@@ -191,7 +191,7 @@ const content = {
     faqEyebrow: "الأسئلة الشائعة",
     faqTitle: "أسئلة يطرحها عملاؤنا",
     faq: [
-      ["ما الخدمات التي تقدمها OP لإدارة العقارات؟", "تقدم OP أربع خدمات: إدارة العقارات للإيجار قصير المدى على Booking.com وAirbnb وAgoda وجاذر إن، وتطبيق نظام HubSpot CRM من الألف إلى الياء، وتسجيل العلامات التجارية في السعودية، وإنشاء المتاجر الإلكترونية على نون وأمازون وترينديول."],
+      ["ما الخدمات التي تقدمها OB لإدارة العقارات؟", "تقدم OB أربع خدمات: إدارة العقارات للإيجار قصير المدى على Booking.com وAirbnb وAgoda وجاذر إن، وتطبيق نظام HubSpot CRM من الألف إلى الياء، وتسجيل العلامات التجارية في السعودية، وإنشاء المتاجر الإلكترونية على نون وأمازون وترينديول."],
       ["في أي دول تقدمون خدماتكم؟", "نخدم العملاء في السعودية والإمارات والكويت وقطر والبحرين وعُمان والولايات المتحدة. ونقدم خدمة تطبيق HubSpot وإنشاء متاجر أمازون عن بُعد بالكامل."],
       ["ما منصات الحجز التي تديرونها؟", "ندير وحدات الإيجار على Booking.com وAirbnb وAgoda وجاذر إن، بما يشمل إنشاء الإعلان والتسعير والتقويم والرد على الضيوف والتقييمات."],
       ["ما المطلوب لتسجيل علامة تجارية في السعودية؟", "عادةً اسم العلامة أو الشعار، وبيانات المالك (السجل التجاري للشركات)، وقائمة المنتجات أو الخدمات التي ستغطيها العلامة. نؤكد لك المستندات المطلوبة لحالتك ونتولى تقديم الطلب ومتابعته مع الهيئة السعودية للملكية الفكرية."],
@@ -200,8 +200,8 @@ const content = {
     ],
     ctaBand: { title: "جاهز للبدء؟", text: "أخبرنا بما تحتاجه وسنرد عليك خلال 24 ساعة.", button: "تواصل معنا" },
     contact: {
-      title: "تواصل مع OP لإدارة العقارات | السعودية والخليج وأمريكا",
-      description: "تواصل مع OP لإدارة العقارات لخدمات إدارة وحدات الإيجار، وتطبيق HubSpot، وتسجيل العلامات التجارية في السعودية، وإنشاء متاجر نون وأمازون وترينديول. نرد خلال 24 ساعة.",
+      title: "تواصل مع OB لإدارة العقارات | السعودية والخليج وأمريكا",
+      description: "تواصل مع OB لإدارة العقارات لخدمات إدارة وحدات الإيجار، وتطبيق HubSpot، وتسجيل العلامات التجارية في السعودية، وإنشاء متاجر نون وأمازون وترينديول. نرد خلال 24 ساعة.",
       eyebrow: "تواصل معنا",
       heading: "لنتحدث عن مشروعك",
       lead: "أخبرنا بالخدمة التي تحتاجها وسنعود إليك خلال 24 ساعة — بالعربية أو الإنجليزية.",
@@ -214,7 +214,7 @@ const content = {
       name: "الاسم الكامل", phone: "الجوال / واتساب", email: "البريد الإلكتروني (اختياري)", country: "الدولة",
       service: "الخدمة", choose: "اختر الخدمة", message: "رسالتك",
       send: "أرسل عبر واتساب", note: "عند الإرسال يفتح واتساب ورسالتك جاهزة للإرسال.",
-      intro: "مرحباً OP لإدارة العقارات، أنا مهتم بـ:",
+      intro: "مرحباً OB لإدارة العقارات، أنا مهتم بـ:",
     },
     breadcrumbContact: "تواصل معنا",
     rights: "جميع الحقوق محفوظة.",
@@ -283,7 +283,7 @@ function header(lang, page) {
   <header class="site-header">
     <div class="container nav">
       <a href="${homeLink}" class="brand" aria-label="${esc(t.brand)}">
-        <span class="brand-mark">OP</span>
+        <span class="brand-mark">OB</span>
         <span class="brand-name">${t.brand}</span>
       </a>
       <nav class="nav-links" id="navLinks" aria-label="${lang === "ar" ? "القائمة الرئيسية" : "Main"}">

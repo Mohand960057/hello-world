@@ -1,4 +1,4 @@
-# OP Property Management — Website
+# OB Property Management — Website
 
 Static bilingual (English · Arabic) company website, built for search engines (SEO) and AI answer engines (GEO), targeting the Middle East (GCC) and the USA.
 
